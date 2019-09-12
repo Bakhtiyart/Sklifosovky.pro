@@ -14,4 +14,14 @@ $(function() {
         }
     );
     wow.init();
+
+
+    $('.case-slider').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        prevArrow: $('.prev-button'),
+        nextArrow: $('.next-button')
+    });
 });

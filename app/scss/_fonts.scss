@@ -17,6 +17,7 @@
 @include font-face("Montserrat", "../fonts/Montserrat-SemiBold/Montserrat-SemiBold", 600);
 
 @include font-face("Helvetica Neue Condenced", "../fonts/HelveticaNeue-CondensedRegular/HelveticaNeue-CondensedRegular");
-@include font-face("Helvetica Neue Condenced", "../fonts/HelveticaNeue-CondensedBold/HelveticaNeue-CondensedBold", bold);
+@include font-face("Helvetica Neue Condenced", "../fonts/HelveticaNeue-CondensedBold/HelveticaNeueCondensedBold", bold);
+@include font-face("HelveticaNeueBoldCondensed", "../fonts/HelveticaNeueBoldCondensed/HelveticaNeueBoldCondensed", bold);
 
 @include font-face("MyriadPro", "../fonts/MyriadProRegular/MyriadProRegular");
