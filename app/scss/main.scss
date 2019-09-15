@@ -659,12 +659,14 @@ b, strong {
 		margin-left: 0;
 	}
 }
+
 .phone-wrap_desktop{
 	display: block;
 	@include media-breakpoint-down(sm){
 		display: none;
 	}
 }
+
 .phone{
 	color: #fff;
 	font-size: 24px;
@@ -676,6 +678,7 @@ b, strong {
 		font-size: 18px;
 	}
 }
+
 .btn-callback{
 	color: #fff;
 	display: block;
@@ -815,6 +818,7 @@ b, strong {
 		}
 	}
 }
+
 .block-title{
 	text-transform: uppercase;
 	font-family: "Helvetica Neue Condenced";
@@ -829,9 +833,11 @@ b, strong {
 		font-size: 24px;
 	}
 }
+
 .block-title{
 	background-color: $color-red;
 }
+
 .form-block{
 	border: 2px solid $color-red;
 	position: relative;
@@ -875,6 +881,7 @@ b, strong {
 		}
 	}
 }
+
 .experience{
 	padding: 50px 0;
 	&-block{
@@ -979,7 +986,6 @@ b, strong {
 		}
 	}
 }
-
 
 .certified{
 	.upper-title{
@@ -1369,7 +1375,6 @@ b, strong {
 	}
 }
 
-
 .form{
 	&__item{
 		padding: 0 120px;
@@ -1426,8 +1431,6 @@ b, strong {
 		} 
 	}
 }
-
-
 
 .footer{
 	background-color: $accent;

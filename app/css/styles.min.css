@@ -652,6 +652,7 @@ body {
   overflow-x: hidden;
   color: #272828;
   background-color: #f8fcfe;
+  background-color: red;
 }
 
 body input, body textarea {
